@@ -1,99 +1,486 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="651a5e73-5bad-4e9a-a98d-25636583a14f" name="Default Changelist" comment="">
+    <list default="true" id="02037e0f-e781-4241-baf1-8a6b24611730" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spec/features/author/show_author_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rails-exercise-20-SanJSp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rails-exercise-20-SanJSp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/remote-mappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/authors_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/authors_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/factories/authors.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/authors.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="ERB File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1k5qg2pEGCM1ouE9ten8JGvhUc1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1kVqb9gEUDaBKqdLUIYuTIGpDOI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
-    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration name="Unnamed" type="RailsRunConfigurationType" factoryName="Rails" nameIsGenerated="true">
+  <component name="RunManager" selected="RSpec.New author page (1)">
+    <configuration name="AuthorController" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+      <module name="rails-exercise-20-SanJSp" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/author_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="AuthorController" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Index page" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+      <module name="rails-exercise-20-SanJSp" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/home_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Index page" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="New author page (1)" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+      <module name="rails-exercise-20-SanJSp" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/author/show_author_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="New author page" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="New author page should exis..." type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+      <module name="rails-exercise-20-SanJSp" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/author/show_author_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="New author page should exist a show page for author" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="New author page" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+      <module name="rails-exercise-20-SanJSp" />
+      <predefined_log_file enabled="true" id="RUBY_RSPEC" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/author/new_author_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="New author page" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Development: rails-exercise-20-SanJSp" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="rails-exercise-20-SanJSp" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
-      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Production: rails-exercise-20-SanJSp" type="RailsRunConfigurationType" factoryName="Rails">
+      <module name="rails-exercise-20-SanJSp" />
+      <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="production" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="spec: rails-exercise-20-SanJSp" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="rails-exercise-20-SanJSp" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="spec" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":rspec " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test: rails-exercise-20-SanJSp" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="rails-exercise-20-SanJSp" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="test" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE=":test_unit " />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="RSpec.New author page (1)" />
+        <item itemvalue="RSpec.New author page should exis..." />
+        <item itemvalue="RSpec.New author page" />
+        <item itemvalue="RSpec.Index page" />
+        <item itemvalue="RSpec.AuthorController" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="651a5e73-5bad-4e9a-a98d-25636583a14f" name="Default Changelist" comment="" />
-      <created>1605000908193</created>
+      <changelist id="02037e0f-e781-4241-baf1-8a6b24611730" name="Default Changelist" comment="" />
+      <created>1605796176034</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605000908193</updated>
-      <workItem from="1605000909431" duration="584000" />
-      <workItem from="1605002435250" duration="2939000" />
+      <updated>1605796176034</updated>
+      <workItem from="1605796177923" duration="8732000" />
+      <workItem from="1605807573589" duration="698000" />
+      <workItem from="1605878666301" duration="3929000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="586" y="233" key="#Inspections" timestamp="1605003840941">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state x="591" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605796202226">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="586" y="233" key="#Inspections/0.30.1920.1050/1920.0.1920.1050@0.30.1920.1050" timestamp="1605003840941" />
-    <state x="414" y="209" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605003870842">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state x="591" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605796202226" />
+    <state width="1802" height="391" key="GridCell.Tab.0.bottom" timestamp="1605882559751">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="414" y="209" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050/1920.0.1920.1050@0.30.1920.1050" timestamp="1605003870842" />
-    <state x="740" y="309" key="FileChooserDialogImpl" timestamp="1605002691847">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605808271538" />
+    <state width="1802" height="391" key="GridCell.Tab.0.bottom/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605882559751" />
+    <state width="1802" height="391" key="GridCell.Tab.0.center" timestamp="1605882559751">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="740" y="309" key="FileChooserDialogImpl/0.30.1920.1050/1920.0.1920.1050@0.30.1920.1050" timestamp="1605002691847" />
-    <state x="461" y="199" key="SettingsEditor" timestamp="1605003940660">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605808271538" />
+    <state width="1802" height="391" key="GridCell.Tab.0.center/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605882559751" />
+    <state width="1802" height="391" key="GridCell.Tab.0.left" timestamp="1605882559751">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="461" y="199" key="SettingsEditor/0.30.1920.1050/1920.0.1920.1050@0.30.1920.1050" timestamp="1605003940660" />
-    <state x="771" y="420" width="894" height="268" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration" timestamp="1605003925382">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605808271538" />
+    <state width="1802" height="391" key="GridCell.Tab.0.left/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605882559751" />
+    <state width="1802" height="391" key="GridCell.Tab.0.right" timestamp="1605882559751">
+      <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="771" y="420" width="894" height="268" key="com.jetbrains.plugins.remotesdk.ui.RemoteMappingsConfiguration/0.30.1920.1050/1920.0.1920.1050@0.30.1920.1050" timestamp="1605003925382" />
+    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605808271538" />
+    <state width="1802" height="391" key="GridCell.Tab.0.right/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605882559751" />
+    <state width="1802" height="391" key="GridCell.Tab.1.bottom" timestamp="1605882559751">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.1.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605808271538" />
+    <state width="1802" height="391" key="GridCell.Tab.1.bottom/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605882559751" />
+    <state width="1802" height="391" key="GridCell.Tab.1.center" timestamp="1605882559751">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.1.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605808271538" />
+    <state width="1802" height="391" key="GridCell.Tab.1.center/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605882559751" />
+    <state width="1802" height="391" key="GridCell.Tab.1.left" timestamp="1605882559751">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.1.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605808271538" />
+    <state width="1802" height="391" key="GridCell.Tab.1.left/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605882559751" />
+    <state width="1802" height="391" key="GridCell.Tab.1.right" timestamp="1605882559751">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="275" key="GridCell.Tab.1.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605808271538" />
+    <state width="1802" height="391" key="GridCell.Tab.1.right/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605882559751" />
+    <state width="1802" height="340" key="GridCell.Tab.2.bottom" timestamp="1605881918634">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.2.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605806321266" />
+    <state width="1802" height="340" key="GridCell.Tab.2.bottom/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605881918634" />
+    <state width="1802" height="340" key="GridCell.Tab.2.center" timestamp="1605881918634">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.2.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605806321266" />
+    <state width="1802" height="340" key="GridCell.Tab.2.center/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605881918634" />
+    <state width="1802" height="340" key="GridCell.Tab.2.left" timestamp="1605881918634">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.2.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605806321266" />
+    <state width="1802" height="340" key="GridCell.Tab.2.left/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605881918634" />
+    <state width="1802" height="340" key="GridCell.Tab.2.right" timestamp="1605881918634">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.2.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605806321266" />
+    <state width="1802" height="340" key="GridCell.Tab.2.right/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605881918634" />
+    <state width="1802" height="340" key="GridCell.Tab.3.bottom" timestamp="1605881918635">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.3.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605806321266" />
+    <state width="1802" height="340" key="GridCell.Tab.3.bottom/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605881918635" />
+    <state width="1802" height="340" key="GridCell.Tab.3.center" timestamp="1605881918635">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.3.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605806321266" />
+    <state width="1802" height="340" key="GridCell.Tab.3.center/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605881918635" />
+    <state width="1802" height="340" key="GridCell.Tab.3.left" timestamp="1605881918635">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.3.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605806321266" />
+    <state width="1802" height="340" key="GridCell.Tab.3.left/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605881918635" />
+    <state width="1802" height="340" key="GridCell.Tab.3.right" timestamp="1605881918635">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state width="1802" height="340" key="GridCell.Tab.3.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605806321266" />
+    <state width="1802" height="340" key="GridCell.Tab.3.right/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605881918635" />
+    <state x="732" y="270" width="517" height="573" key="VcsDiffUtil.ChangesDialog" timestamp="1605878725290">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="732" y="270" width="517" height="573" key="VcsDiffUtil.ChangesDialog/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605878725290" />
+    <state x="686" y="292" width="620" height="522" key="find.popup" timestamp="1605880119911">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="686" y="292" width="620" height="522" key="find.popup/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605880119911" />
+    <state x="660" y="252" key="run.anything.popup" timestamp="1605800905470">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="660" y="252" key="run.anything.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605800905470" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@spec__rails_exercise_20_SanJSp.rcov" NAME="spec: rails-exercise-20-SanJSp Coverage Results" MODIFIED="1605801872220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@AuthorController.rcov" NAME="AuthorController Coverage Results" MODIFIED="1605807871189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@authors_model.rcov" NAME="authors model Coverage Results" MODIFIED="1605802223159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Author_instance_of_Author_s___.rcov" NAME="Author instance of Author s... Coverage Results" MODIFIED="1605802467030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@authors_model_instance_of_A___.rcov" NAME="authors model instance of A... Coverage Results" MODIFIED="1605802177573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Author_should_have_a_first____.rcov" NAME="Author should have a first ... Coverage Results" MODIFIED="1605802689859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@New_author_page__1_.rcov" NAME="New author page (1) Coverage Results" MODIFIED="1605882559738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@authors_model_should_have_a___.rcov" NAME="authors model should have a... Coverage Results" MODIFIED="1605802356543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@test__rails_exercise_20_SanJSp.rcov" NAME="test: rails-exercise-20-SanJSp Coverage Results" MODIFIED="1605796433966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@New_author_page.rcov" NAME="New author page Coverage Results" MODIFIED="1605880122710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Development__rails_exercise_20_SanJSp.rcov" NAME="Development: rails-exercise-20-SanJSp Coverage Results" MODIFIED="1605879474615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Index_page.rcov" NAME="Index page Coverage Results" MODIFIED="1605808024890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Author.rcov" NAME="Author Coverage Results" MODIFIED="1605805050118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Author_should_have_a_method___.rcov" NAME="Author should have a method... Coverage Results" MODIFIED="1605803771621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@New_author_page_should_exis___.rcov" NAME="New author page should exis... Coverage Results" MODIFIED="1605882406229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
   </component>
 </project>
