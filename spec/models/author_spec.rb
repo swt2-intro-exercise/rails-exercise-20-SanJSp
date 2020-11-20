@@ -11,6 +11,6 @@ RSpec.describe Author, type: :model do
 
   it 'should have a method returning the full name of the author' do
     author = Author.new(first_name:'Rosa', last_name:'Schluepfer', homepage:'meineschluepfer.com')
-    expect(author.name()).to eq("Rosa Schluepfer")
+    expect(author.name).to eq("Rosa Schluepfer")
   end
 end
