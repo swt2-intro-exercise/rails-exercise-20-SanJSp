@@ -19,7 +19,6 @@ describe "New author page", type: :feature do
 
  it 'should show error when lastname is not filled and submit is clicked' do
    visit new_author_path
-   #@author = Author.new(first_name:'Rosa', last_name: nil, homepage:'meineschluepfer.com')
    author = Author.create({"first_name" => "Alan", "homepage" => "http://wikipedia.org/Alan_Turing"})
    expect(author.errors.full_messages.each).to include("Last name can't be blank")
  end

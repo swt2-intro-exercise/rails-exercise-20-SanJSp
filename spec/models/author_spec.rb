@@ -13,4 +13,11 @@ RSpec.describe Author, type: :model do
     author = Author.new(first_name:'Rosa', last_name:'Schluepfer', homepage:'meineschluepfer.com')
     expect(author.name).to eq("Rosa Schluepfer")
   end
+
+  it 'should have a method to delete an author' do
+    @author = Author.new(first_name:'Rosa', last_name:'Schluepfer', homepage:'meineschluepfer.com')
+    @author.destroy
+    #expect { @author.destroy}.to change(Author, :count).by(-1)
+    expect { @author.reload }.to raise_error ActiveRecord::RecordNotFound
+  end
 end
