@@ -2,7 +2,7 @@ class Paper < ApplicationRecord
   validates :title, presence: true
   validates :venue, presence: true
   validates :year, presence: true
-  validates :year, format: { with: /\[0-9]*/,
+  validates :year, format: { with: /[0-9]*/,
                                      message: "only allows numbers" }
 
 end
