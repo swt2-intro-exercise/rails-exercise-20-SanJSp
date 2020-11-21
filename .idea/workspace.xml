@@ -20,15 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02037e0f-e781-4241-baf1-8a6b24611730" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spec/features/author/show_author_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/rails-exercise-20-SanJSp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rails-exercise-20-SanJSp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/remote-mappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/authors_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/authors_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/factories/authors.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/authors.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/factories/papers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/papers.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +59,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="RSpec.New author page (1)">
-    <configuration name="AuthorController" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="RSpec.PapersController PUT #update">
+    <configuration name="Paper should have a title a..." type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="rails-exercise-20-SanJSp" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -81,10 +80,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/author_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/paper_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="AuthorController" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Paper should have a title and venue string as well as a year integer" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -95,7 +94,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Index page" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="PapersController GET #index..." type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="rails-exercise-20-SanJSp" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -115,10 +114,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/home_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/papers_controller_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Index page" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="PapersController GET #index returns a success response" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -129,7 +128,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="New author page (1)" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="PapersController PUT #updat..." type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="rails-exercise-20-SanJSp" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -149,10 +148,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/author/show_author_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/papers_controller_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="New author page" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="PapersController PUT #update with valid params updates the requested paper" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -163,7 +162,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="New author page should exis..." type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="PapersController PUT #update" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="rails-exercise-20-SanJSp" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -183,10 +182,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/author/show_author_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/papers_controller_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="New author page should exist a show page for author" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="PapersController PUT #update" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -197,7 +196,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="New author page" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
+    <configuration name="PapersController (1)" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true" nameIsGenerated="true">
       <module name="rails-exercise-20-SanJSp" />
       <predefined_log_file enabled="true" id="RUBY_RSPEC" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -217,10 +216,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/author/new_author_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/papers_controller_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="New author page" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="PapersController" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -330,11 +329,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="RSpec.New author page (1)" />
-        <item itemvalue="RSpec.New author page should exis..." />
-        <item itemvalue="RSpec.New author page" />
-        <item itemvalue="RSpec.Index page" />
-        <item itemvalue="RSpec.AuthorController" />
+        <item itemvalue="RSpec.PapersController PUT #update" />
+        <item itemvalue="RSpec.PapersController PUT #updat..." />
+        <item itemvalue="RSpec.PapersController (1)" />
+        <item itemvalue="RSpec.PapersController GET #index..." />
+        <item itemvalue="RSpec.Paper should have a title a..." />
       </list>
     </recent_temporary>
   </component>
@@ -349,7 +348,9 @@
       <updated>1605796176034</updated>
       <workItem from="1605796177923" duration="8732000" />
       <workItem from="1605807573589" duration="698000" />
-      <workItem from="1605878666301" duration="3929000" />
+      <workItem from="1605878666301" duration="12880000" />
+      <workItem from="1605945395305" duration="1593000" />
+      <workItem from="1605951420656" duration="3178000" />
     </task>
     <servers />
   </component>
@@ -373,86 +374,86 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="591" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605796202226" />
-    <state width="1802" height="391" key="GridCell.Tab.0.bottom" timestamp="1605882559751">
+    <state width="1802" height="340" key="GridCell.Tab.0.bottom" timestamp="1605954585482">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605808271538" />
-    <state width="1802" height="391" key="GridCell.Tab.0.bottom/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605882559751" />
-    <state width="1802" height="391" key="GridCell.Tab.0.center" timestamp="1605882559751">
+    <state width="1802" height="394" key="GridCell.Tab.0.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605946376322" />
+    <state width="1802" height="340" key="GridCell.Tab.0.bottom/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605954585482" />
+    <state width="1802" height="340" key="GridCell.Tab.0.center" timestamp="1605954585482">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605808271538" />
-    <state width="1802" height="391" key="GridCell.Tab.0.center/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605882559751" />
-    <state width="1802" height="391" key="GridCell.Tab.0.left" timestamp="1605882559751">
+    <state width="1802" height="394" key="GridCell.Tab.0.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605946376321" />
+    <state width="1802" height="340" key="GridCell.Tab.0.center/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605954585482" />
+    <state width="1802" height="340" key="GridCell.Tab.0.left" timestamp="1605954585481">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605808271538" />
-    <state width="1802" height="391" key="GridCell.Tab.0.left/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605882559751" />
-    <state width="1802" height="391" key="GridCell.Tab.0.right" timestamp="1605882559751">
+    <state width="1802" height="394" key="GridCell.Tab.0.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605946376321" />
+    <state width="1802" height="340" key="GridCell.Tab.0.left/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605954585481" />
+    <state width="1802" height="340" key="GridCell.Tab.0.right" timestamp="1605954585482">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605808271538" />
-    <state width="1802" height="391" key="GridCell.Tab.0.right/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605882559751" />
-    <state width="1802" height="391" key="GridCell.Tab.1.bottom" timestamp="1605882559751">
+    <state width="1802" height="394" key="GridCell.Tab.0.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605946376321" />
+    <state width="1802" height="340" key="GridCell.Tab.0.right/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605954585482" />
+    <state width="1802" height="394" key="GridCell.Tab.1.bottom" timestamp="1605954585390">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.1.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605808271538" />
-    <state width="1802" height="391" key="GridCell.Tab.1.bottom/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605882559751" />
-    <state width="1802" height="391" key="GridCell.Tab.1.center" timestamp="1605882559751">
+    <state width="1802" height="394" key="GridCell.Tab.1.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605946376322" />
+    <state width="1802" height="394" key="GridCell.Tab.1.bottom/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605954585390" />
+    <state width="1802" height="394" key="GridCell.Tab.1.center" timestamp="1605954585390">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.1.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605808271538" />
-    <state width="1802" height="391" key="GridCell.Tab.1.center/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605882559751" />
-    <state width="1802" height="391" key="GridCell.Tab.1.left" timestamp="1605882559751">
+    <state width="1802" height="394" key="GridCell.Tab.1.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605946376322" />
+    <state width="1802" height="394" key="GridCell.Tab.1.center/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605954585390" />
+    <state width="1802" height="394" key="GridCell.Tab.1.left" timestamp="1605954585390">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.1.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605808271538" />
-    <state width="1802" height="391" key="GridCell.Tab.1.left/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605882559751" />
-    <state width="1802" height="391" key="GridCell.Tab.1.right" timestamp="1605882559751">
+    <state width="1802" height="394" key="GridCell.Tab.1.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605946376322" />
+    <state width="1802" height="394" key="GridCell.Tab.1.left/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605954585390" />
+    <state width="1802" height="394" key="GridCell.Tab.1.right" timestamp="1605954585390">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state width="1802" height="275" key="GridCell.Tab.1.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605808271538" />
-    <state width="1802" height="391" key="GridCell.Tab.1.right/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605882559751" />
-    <state width="1802" height="340" key="GridCell.Tab.2.bottom" timestamp="1605881918634">
+    <state width="1802" height="394" key="GridCell.Tab.1.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605946376322" />
+    <state width="1802" height="394" key="GridCell.Tab.1.right/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605954585390" />
+    <state width="1802" height="340" key="GridCell.Tab.2.bottom" timestamp="1605954585382">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="340" key="GridCell.Tab.2.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605806321266" />
-    <state width="1802" height="340" key="GridCell.Tab.2.bottom/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605881918634" />
-    <state width="1802" height="340" key="GridCell.Tab.2.center" timestamp="1605881918634">
+    <state width="1802" height="340" key="GridCell.Tab.2.bottom/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605954585382" />
+    <state width="1802" height="340" key="GridCell.Tab.2.center" timestamp="1605954585381">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="340" key="GridCell.Tab.2.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605806321266" />
-    <state width="1802" height="340" key="GridCell.Tab.2.center/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605881918634" />
-    <state width="1802" height="340" key="GridCell.Tab.2.left" timestamp="1605881918634">
+    <state width="1802" height="340" key="GridCell.Tab.2.center/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605954585381" />
+    <state width="1802" height="340" key="GridCell.Tab.2.left" timestamp="1605954585381">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="340" key="GridCell.Tab.2.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605806321266" />
-    <state width="1802" height="340" key="GridCell.Tab.2.left/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605881918634" />
-    <state width="1802" height="340" key="GridCell.Tab.2.right" timestamp="1605881918634">
+    <state width="1802" height="340" key="GridCell.Tab.2.left/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605954585381" />
+    <state width="1802" height="340" key="GridCell.Tab.2.right" timestamp="1605954585382">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="340" key="GridCell.Tab.2.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605806321266" />
-    <state width="1802" height="340" key="GridCell.Tab.2.right/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605881918634" />
-    <state width="1802" height="340" key="GridCell.Tab.3.bottom" timestamp="1605881918635">
+    <state width="1802" height="340" key="GridCell.Tab.2.right/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605954585382" />
+    <state width="1802" height="340" key="GridCell.Tab.3.bottom" timestamp="1605954585382">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="340" key="GridCell.Tab.3.bottom/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605806321266" />
-    <state width="1802" height="340" key="GridCell.Tab.3.bottom/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605881918635" />
-    <state width="1802" height="340" key="GridCell.Tab.3.center" timestamp="1605881918635">
+    <state width="1802" height="340" key="GridCell.Tab.3.bottom/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605954585382" />
+    <state width="1802" height="340" key="GridCell.Tab.3.center" timestamp="1605954585382">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="340" key="GridCell.Tab.3.center/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605806321266" />
-    <state width="1802" height="340" key="GridCell.Tab.3.center/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605881918635" />
-    <state width="1802" height="340" key="GridCell.Tab.3.left" timestamp="1605881918635">
+    <state width="1802" height="340" key="GridCell.Tab.3.center/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605954585382" />
+    <state width="1802" height="340" key="GridCell.Tab.3.left" timestamp="1605954585382">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="340" key="GridCell.Tab.3.left/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605806321266" />
-    <state width="1802" height="340" key="GridCell.Tab.3.left/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605881918635" />
-    <state width="1802" height="340" key="GridCell.Tab.3.right" timestamp="1605881918635">
+    <state width="1802" height="340" key="GridCell.Tab.3.left/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605954585382" />
+    <state width="1802" height="340" key="GridCell.Tab.3.right" timestamp="1605954585382">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state width="1802" height="340" key="GridCell.Tab.3.right/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605806321266" />
-    <state width="1802" height="340" key="GridCell.Tab.3.right/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605881918635" />
+    <state width="1802" height="340" key="GridCell.Tab.3.right/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605954585382" />
     <state x="732" y="270" width="517" height="573" key="VcsDiffUtil.ChangesDialog" timestamp="1605878725290">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
@@ -465,22 +466,42 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="660" y="252" key="run.anything.popup/72.27.1848.1053/1920.0.1920.1080@72.27.1848.1053" timestamp="1605800905470" />
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1605953094160">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="659" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053/936.1080.1920.1080/1920.0.1920.1080@72.27.1848.1053" timestamp="1605953094160" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@spec__rails_exercise_20_SanJSp.rcov" NAME="spec: rails-exercise-20-SanJSp Coverage Results" MODIFIED="1605801872220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
     <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@AuthorController.rcov" NAME="AuthorController Coverage Results" MODIFIED="1605807871189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Listing_of_authors_should_h___.rcov" NAME="Listing of authors should h... Coverage Results" MODIFIED="1605885793594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
     <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@authors_model.rcov" NAME="authors model Coverage Results" MODIFIED="1605802223159" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
-    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Author_instance_of_Author_s___.rcov" NAME="Author instance of Author s... Coverage Results" MODIFIED="1605802467030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
     <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@authors_model_instance_of_A___.rcov" NAME="authors model instance of A... Coverage Results" MODIFIED="1605802177573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
     <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Author_should_have_a_first____.rcov" NAME="Author should have a first ... Coverage Results" MODIFIED="1605802689859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
-    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@New_author_page__1_.rcov" NAME="New author page (1) Coverage Results" MODIFIED="1605882559738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
-    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@authors_model_should_have_a___.rcov" NAME="authors model should have a... Coverage Results" MODIFIED="1605802356543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@PapersController_GET__new.rcov" NAME="PapersController GET #new Coverage Results" MODIFIED="1605952908782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@New_author_page__1_.rcov" NAME="New author page (1) Coverage Results" MODIFIED="1605882686252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
     <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@test__rails_exercise_20_SanJSp.rcov" NAME="test: rails-exercise-20-SanJSp Coverage Results" MODIFIED="1605796433966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
     <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@New_author_page.rcov" NAME="New author page Coverage Results" MODIFIED="1605880122710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
-    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Development__rails_exercise_20_SanJSp.rcov" NAME="Development: rails-exercise-20-SanJSp Coverage Results" MODIFIED="1605879474615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
     <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Index_page.rcov" NAME="Index page Coverage Results" MODIFIED="1605808024890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
-    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Author.rcov" NAME="Author Coverage Results" MODIFIED="1605805050118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
-    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Author_should_have_a_method___.rcov" NAME="Author should have a method... Coverage Results" MODIFIED="1605803771621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Listing_of_authors.rcov" NAME="Listing of authors Coverage Results" MODIFIED="1605886172208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Author_should_have_a_method___.rcov" NAME="Author should have a method... Coverage Results" MODIFIED="1605946363996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
     <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@New_author_page_should_exis___.rcov" NAME="New author page should exis... Coverage Results" MODIFIED="1605882406229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Edit_author_page_should_render.rcov" NAME="Edit author page should render Coverage Results" MODIFIED="1605893248718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Paper_should_have_a_title_a___.rcov" NAME="Paper should have a title a... Coverage Results" MODIFIED="1605953803773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@spec__rails_exercise_20_SanJSp.rcov" NAME="spec: rails-exercise-20-SanJSp Coverage Results" MODIFIED="1605801872220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@PapersController.rcov" NAME="PapersController Coverage Results" MODIFIED="1605952796704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@PapersController_GET__new_r___.rcov" NAME="PapersController GET #new r... Coverage Results" MODIFIED="1605952940996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Author_instance_of_Author_s___.rcov" NAME="Author instance of Author s... Coverage Results" MODIFIED="1605802467030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Edit_author_page_should_be____.rcov" NAME="Edit author page should be ... Coverage Results" MODIFIED="1605893170925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@New_author_page_should_not____.rcov" NAME="New author page should not ... Coverage Results" MODIFIED="1605889143979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@authors_model_should_have_a___.rcov" NAME="authors model should have a... Coverage Results" MODIFIED="1605802356543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@PapersController_PUT__update.rcov" NAME="PapersController PUT #update Coverage Results" MODIFIED="1605954585350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Listing_of_authors_should_h_____1_.rcov" NAME="Listing of authors should h... (1) Coverage Results" MODIFIED="1605885788257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@PapersController_GET__index___.rcov" NAME="PapersController GET #index... Coverage Results" MODIFIED="1605954324029" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Development__rails_exercise_20_SanJSp.rcov" NAME="Development: rails-exercise-20-SanJSp Coverage Results" MODIFIED="1605952403111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@New_author_page_should_show___.rcov" NAME="New author page should show... Coverage Results" MODIFIED="1605889722883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Author.rcov" NAME="Author Coverage Results" MODIFIED="1605884952807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@PapersController_PUT__updat___.rcov" NAME="PapersController PUT #updat... Coverage Results" MODIFIED="1605954521509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@PapersController__1_.rcov" NAME="PapersController (1) Coverage Results" MODIFIED="1605954508978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
+    <SUITE FILE_PATH="coverage/rails_exercise_20_SanJSp@Listing_of_authors_should_l___.rcov" NAME="Listing of authors should l... Coverage Results" MODIFIED="1605886167437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-exercise-20-SanJSp" />
   </component>
 </project>
