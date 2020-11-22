@@ -6,4 +6,6 @@ class Paper < ApplicationRecord
 
   has_and_belongs_to_many :authors
   serialize :authors, Array
+
+  scope :find_by_year_published, -> (requested_year) { where(year: requested_year) if requested_year.present? }
 end
