@@ -9,6 +9,6 @@ RSpec.describe Paper, type: :model do
   end
   it 'should have an empty ist of authors' do
     @paper = FactoryBot.create :paper
-    expect(@paper).to have_attributes(@paper.authors)
+    expect(@paper.authors).to eq([])
   end
 end
