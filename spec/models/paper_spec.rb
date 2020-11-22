@@ -6,5 +6,9 @@ RSpec.describe Paper, type: :model do
     expect(@paper.title).to eq("COMPUTING MACHINERY AND INTELLIGENCE")
     expect(@paper.venue).to eq("Mind 49: 433-460")
     expect(@paper.year).to eq(1950)
-    end
+  end
+  it 'should have an empty ist of authors' do
+    @paper = FactoryBot.create :paper
+    expect(@paper).to have_attributes(@paper.authors)
+  end
 end
